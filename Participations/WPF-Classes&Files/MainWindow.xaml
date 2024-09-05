@@ -11,16 +11,16 @@
     </Window.Background>
     <Grid>
         <GroupBox Header="Create new Toy" Margin="10,102,267,150" BorderBrush="#FF1210A3"/>
-        <Button x:Name="btnAdd" Margin="217,242,468,163" Content="Add Toy" IsDefault="True" />
-        <ListBox x:Name="lstToys" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="554,0,0,0"/>
+        <Button x:Name="btnAdd" Margin="217,242,468,163" Content="Add Toy" IsDefault="True" Click="btnAdd_Click" />
+        <ListBox x:Name="lstToys" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="554,0,0,0" MouseDoubleClick="lstToys_MouseDoubleClick"/>
         <Label Content="Name:" HorizontalAlignment="Left" Margin="45,138,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="136,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="136,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Manufacturer:" HorizontalAlignment="Left" Margin="309,138,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="400,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtManufacturer" HorizontalAlignment="Left" Margin="400,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Price :" HorizontalAlignment="Left" Margin="45,182,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="136,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="136,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Image:" HorizontalAlignment="Left" Margin="309,180,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="400,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtImage" HorizontalAlignment="Left" Margin="400,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="73"/>
         <Image x:Name="imgToy" HorizontalAlignment="Left" Height="112" Margin="296,302,0,0" VerticalAlignment="Top" Width="197"/>
 
     </Grid>

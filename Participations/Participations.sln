@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWPFApplication", "FirstWPFApplication\FirstWPFApplication.csproj", "{AED9FF89-3631-467E-8E51-CF2ECD455773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWPFApplication", "FirstWPFApplication\FirstWPFApplication.csproj", "{AED9FF89-3631-467E-8E51-CF2ECD455773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Classes&Files", "WPF-Classes&Files\WPF-Classes&Files.csproj", "{6BC700AA-7AED-46A3-B272-42480D44E736}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-Classes&Files", "WPF-Classes&Files\WPF-Classes&Files.csproj", "{6BC700AA-7AED-46A3-B272-42480D44E736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Classes&Files2", "WPF-Classes&Files2\WPF-Classes&Files2.csproj", "{0A9C6A19-D910-42EA-BF58-BE2DDA7DA7C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6BC700AA-7AED-46A3-B272-42480D44E736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC700AA-7AED-46A3-B272-42480D44E736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC700AA-7AED-46A3-B272-42480D44E736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9C6A19-D910-42EA-BF58-BE2DDA7DA7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9C6A19-D910-42EA-BF58-BE2DDA7DA7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9C6A19-D910-42EA-BF58-BE2DDA7DA7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9C6A19-D910-42EA-BF58-BE2DDA7DA7C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

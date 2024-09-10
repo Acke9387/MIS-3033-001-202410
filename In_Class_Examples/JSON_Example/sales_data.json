@@ -1,0 +1,252 @@
+[
+  {
+    "customer_id": 1,
+    "purchase_date": "12/21/2021",
+    "total_amount": 350.51
+  },
+  {
+    "customer_id": 2,
+    "purchase_date": "4/5/2021",
+    "total_amount": 705.28
+  },
+  {
+    "customer_id": 3,
+    "purchase_date": "4/8/2021",
+    "total_amount": 276.34
+  },
+  {
+    "customer_id": 4,
+    "purchase_date": "10/15/2021",
+    "total_amount": 901.23
+  },
+  {
+    "customer_id": 5,
+    "purchase_date": "10/20/2021",
+    "total_amount": 212.73
+  },
+  {
+    "customer_id": 6,
+    "purchase_date": "1/18/2021",
+    "total_amount": 610.68
+  },
+  {
+    "customer_id": 7,
+    "purchase_date": "8/3/2021",
+    "total_amount": 269.25
+  },
+  {
+    "customer_id": 8,
+    "purchase_date": "10/16/2021",
+    "total_amount": 439.39
+  },
+  {
+    "customer_id": 9,
+    "purchase_date": "11/16/2021",
+    "total_amount": 570.27
+  },
+  {
+    "customer_id": 10,
+    "purchase_date": "2/13/2021",
+    "total_amount": 534.79
+  },
+  {
+    "customer_id": 11,
+    "purchase_date": "9/9/2021",
+    "total_amount": 872.25
+  },
+  {
+    "customer_id": 12,
+    "purchase_date": "8/1/2021",
+    "total_amount": 710.21
+  },
+  {
+    "customer_id": 13,
+    "purchase_date": "4/6/2021",
+    "total_amount": 391.59
+  },
+  {
+    "customer_id": 14,
+    "purchase_date": "6/27/2021",
+    "total_amount": 71.36
+  },
+  {
+    "customer_id": 15,
+    "purchase_date": "1/9/2021",
+    "total_amount": 681.86
+  },
+  {
+    "customer_id": 16,
+    "purchase_date": "2/23/2021",
+    "total_amount": 258.28
+  },
+  {
+    "customer_id": 17,
+    "purchase_date": "11/14/2021",
+    "total_amount": 799.75
+  },
+  {
+    "customer_id": 18,
+    "purchase_date": "8/18/2021",
+    "total_amount": 168.95
+  },
+  {
+    "customer_id": 19,
+    "purchase_date": "11/16/2021",
+    "total_amount": 762.33
+  },
+  {
+    "customer_id": 20,
+    "purchase_date": "12/7/2021",
+    "total_amount": 147.12
+  },
+  {
+    "customer_id": 21,
+    "purchase_date": "5/23/2021",
+    "total_amount": 970.35
+  },
+  {
+    "customer_id": 22,
+    "purchase_date": "9/26/2021",
+    "total_amount": 478.58
+  },
+  {
+    "customer_id": 23,
+    "purchase_date": "7/12/2021",
+    "total_amount": 365.87
+  },
+  {
+    "customer_id": 24,
+    "purchase_date": "3/4/2021",
+    "total_amount": 303.53
+  },
+  {
+    "customer_id": 25,
+    "purchase_date": "1/2/2021",
+    "total_amount": 985.09
+  },
+  {
+    "customer_id": 26,
+    "purchase_date": "9/24/2021",
+    "total_amount": 791.73
+  },
+  {
+    "customer_id": 27,
+    "purchase_date": "12/14/2021",
+    "total_amount": 35.64
+  },
+  {
+    "customer_id": 28,
+    "purchase_date": "6/8/2021",
+    "total_amount": 977.61
+  },
+  {
+    "customer_id": 29,
+    "purchase_date": "2/7/2021",
+    "total_amount": 772.58
+  },
+  {
+    "customer_id": 30,
+    "purchase_date": "12/3/2021",
+    "total_amount": 553.06
+  },
+  {
+    "customer_id": 31,
+    "purchase_date": "8/12/2021",
+    "total_amount": 880.7
+  },
+  {
+    "customer_id": 32,
+    "purchase_date": "5/9/2021",
+    "total_amount": 900.12
+  },
+  {
+    "customer_id": 33,
+    "purchase_date": "10/15/2021",
+    "total_amount": 915.18
+  },
+  {
+    "customer_id": 34,
+    "purchase_date": "1/1/2021",
+    "total_amount": 749.29
+  },
+  {
+    "customer_id": 35,
+    "purchase_date": "1/3/2021",
+    "total_amount": 942.19
+  },
+  {
+    "customer_id": 36,
+    "purchase_date": "1/25/2021",
+    "total_amount": 580.26
+  },
+  {
+    "customer_id": 37,
+    "purchase_date": "8/13/2021",
+    "total_amount": 151.3
+  },
+  {
+    "customer_id": 38,
+    "purchase_date": "7/17/2021",
+    "total_amount": 385.55
+  },
+  {
+    "customer_id": 39,
+    "purchase_date": "5/29/2021",
+    "total_amount": 600.01
+  },
+  {
+    "customer_id": 40,
+    "purchase_date": "2/17/2021",
+    "total_amount": 260.48
+  },
+  {
+    "customer_id": 41,
+    "purchase_date": "6/23/2021",
+    "total_amount": 172.24
+  },
+  {
+    "customer_id": 42,
+    "purchase_date": "6/27/2021",
+    "total_amount": 494.17
+  },
+  {
+    "customer_id": 43,
+    "purchase_date": "7/23/2021",
+    "total_amount": 272.28
+  },
+  {
+    "customer_id": 44,
+    "purchase_date": "3/26/2021",
+    "total_amount": 127.21
+  },
+  {
+    "customer_id": 45,
+    "purchase_date": "2/17/2021",
+    "total_amount": 10.26
+  },
+  {
+    "customer_id": 46,
+    "purchase_date": "5/25/2021",
+    "total_amount": 349.25
+  },
+  {
+    "customer_id": 47,
+    "purchase_date": "7/31/2021",
+    "total_amount": 666.2
+  },
+  {
+    "customer_id": 48,
+    "purchase_date": "1/30/2021",
+    "total_amount": 344.65
+  },
+  {
+    "customer_id": 49,
+    "purchase_date": "5/31/2021",
+    "total_amount": 878.11
+  },
+  {
+    "customer_id": 50,
+    "purchase_date": "3/16/2021",
+    "total_amount": 631.92
+  }
+]

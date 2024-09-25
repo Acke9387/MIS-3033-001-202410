@@ -23,9 +23,10 @@ namespace JSON_WebRequest_Rick_and_Morty
         {
             InitializeComponent();
             RickAndMortyAPI api;
+            string json;
             using (HttpClient client = new HttpClient())
             {
-                string json = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;
+                json = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;
                 api = JsonConvert.DeserializeObject<RickAndMortyAPI>(json);
             }
             foreach (var result in api.Results)
@@ -33,11 +34,13 @@ namespace JSON_WebRequest_Rick_and_Morty
                 cboCharacters.Items.Add(result);
             }
 
-            string comboBoxItemsAsString = JsonConvert.SerializeObject(cboCharacters.Items);
-            string json1 = JsonConvert.SerializeObject(api);
+            string json_api_object = JsonConvert.SerializeObject(api);
+            string json_combobox = JsonConvert.SerializeObject(cboCharacters.Items);
 
-            File.WriteAllText("combobox.json", comboBoxItemsAsString);
-            File.WriteAllText("api.json", json1);
+            File.WriteAllText("web_result.json", json);
+            File.WriteAllText("api_object.json", json_api_object);
+            File.WriteAllText("combobox.json", json_combobox);
+
 
         }
 

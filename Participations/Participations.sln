@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-Classes&Files2", "WPF-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-From_A_File_2", "JSON-From_A_File_2\JSON-From_A_File_2.csproj", "{F9E045C9-7DE5-41DF-989F-67DF3D3C592A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-Chuck_Norris_Joke", "JSON-Chuck_Norris_Joke\JSON-Chuck_Norris_Joke.csproj", "{82AB2C23-2558-4981-BED9-69A1C42FA9BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-Chuck_Norris_Joke", "JSON-Chuck_Norris_Joke\JSON-Chuck_Norris_Joke.csproj", "{82AB2C23-2558-4981-BED9-69A1C42FA9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-Game_of_Thrones_Quote", "JSON-Game_of_Thrones_Quote\JSON-Game_of_Thrones_Quote.csproj", "{EAE5AC0D-D786-45FD-BB21-48C938030BEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{82AB2C23-2558-4981-BED9-69A1C42FA9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82AB2C23-2558-4981-BED9-69A1C42FA9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82AB2C23-2558-4981-BED9-69A1C42FA9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE5AC0D-D786-45FD-BB21-48C938030BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE5AC0D-D786-45FD-BB21-48C938030BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE5AC0D-D786-45FD-BB21-48C938030BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE5AC0D-D786-45FD-BB21-48C938030BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

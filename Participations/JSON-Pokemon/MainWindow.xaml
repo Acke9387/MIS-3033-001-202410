@@ -1,0 +1,25 @@
+﻿<Window x:Class="JSON_Pokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Pokemon"
+        mc:Ignorable="d"
+        Title="Pokemon" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="https://images.immediate.co.uk/production/volatile/sites/3/2024/05/How-many-Pokemon-are-there-6434211.jpg?resize=768,574"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Select a pokemon:" HorizontalAlignment="Left" Margin="28,40,0,0" VerticalAlignment="Top" Background="#FFFAF4F4" Width="113"/>
+        <ComboBox x:Name="cboPokemon" HorizontalAlignment="Left" Margin="146,42,0,0" VerticalAlignment="Top" Width="174" SelectionChanged="cboPokemon_SelectionChanged"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="28,180,0,0" VerticalAlignment="Top" Background="#FFFAF4F4" Width="56"/>
+        <Label Content="Weight:" HorizontalAlignment="Left" Margin="28,211,0,0" VerticalAlignment="Top" Background="#FFFAF4F4" Width="56"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Margin="28,242,0,0" VerticalAlignment="Top" Background="#FFFAF4F4" Width="56"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="89,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" IsEnabled="False"/>
+        <TextBox x:Name="txtWeight" HorizontalAlignment="Left" Margin="89,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" IsEnabled="False"/>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Margin="89,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" IsEnabled="False"/>
+        <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="116" Margin="43,288,0,0" VerticalAlignment="Top" Width="127"/>
+        <Button x:Name="btnFlip" Content="Flip" HorizontalAlignment="Left" Margin="175,322,0,0" VerticalAlignment="Top" Height="29" Width="58" Click="btnFlip_Click" IsEnabled="False"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿RANK;LOGO;COMPANY;CATEGORY;2018 US SYSTEMWIDE SALES MILLIONS
+1;https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/220px-McDonald%27s_Golden_Arches.svg.png;MCDONALD'S;BURGER;38524.05
+2;https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png;STARBUCKS;SNACK;19700
+3;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Subway_2016_logo.svg/220px-Subway_2016_logo.svg.png;SUBWAY;SANDWICH;10410.34
+4;https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Taco_Bell_2016.svg/150px-Taco_Bell_2016.svg.png;TACO BELL;GLOBAL;10300
+5;https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chick-fil-A_Logo.svg/220px-Chick-fil-A_Logo.svg.png;CHICK-FIL-A;CHICKEN;10000
+6;https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/175px-Wendy%27s_full_logo_2012.svg.png;WENDY'S;BURGER;9993.7
+7;https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/200px-Burger_King_2020.svg.png;BURGER KING;BURGER;9950
+8;https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Dunkin%27_logo.svg/220px-Dunkin%27_logo.svg.png;DUNKIN';SNACK;8787
+9;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/120px-Domino%27s_pizza_logo.svg.png;DOMINO'S;PIZZA;6600
+10;https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Panera_Bread_wordmark.svg/200px-Panera_Bread_wordmark.svg.png;PANERA BREAD;SANDWICH;5734.63

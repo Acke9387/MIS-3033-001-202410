@@ -1,0 +1,32 @@
+﻿@model MyFirstMVCApplication.Models.DeveloperInformation
+
+@{
+    ViewData["Title"] = "Developer Information";
+}
+
+<h1>Developer Information</h1>
+
+<div>
+    <hr />
+    <dl class="row Contact_Header">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Name
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            <a href="mailto:@Model.Email">Send Email</a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+    </dl>
+</div>
+

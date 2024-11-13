@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MVC_Participation3.Models.FactAPI>
+
+@{
+    ViewData["Title"] = "Facts";
+    int factNumber = 1;
+}
+
+<h1>Cat Facts</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                Fact
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @factNumber
+                    @{
+                        factNumber++;
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fact)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<ul>
+    <li><a href="/Cat/Facts?number=10">Get 10 Cat Facts</a></li>
+    <li><a href="/Cat/Facts?number=15">Get 15 Cat Facts</a></li>
+</ul>

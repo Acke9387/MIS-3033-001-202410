@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-Game_of_Thrones_Quote"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-Pokemon", "JSON-Pokemon\JSON-Pokemon.csproj", "{96119654-7F5B-4A2E-87F8-C41E847E3FD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Participation2", "MVC_Participation2\MVC_Participation2.csproj", "{6AD5EE83-1744-4B52-AC27-4B67B5BDDFAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_Participation2", "MVC_Participation2\MVC_Participation2.csproj", "{6AD5EE83-1744-4B52-AC27-4B67B5BDDFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Participation3", "MVC_Participation3\MVC_Participation3.csproj", "{02830C4A-2490-4DD0-A42B-F26172A226ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6AD5EE83-1744-4B52-AC27-4B67B5BDDFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD5EE83-1744-4B52-AC27-4B67B5BDDFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD5EE83-1744-4B52-AC27-4B67B5BDDFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02830C4A-2490-4DD0-A42B-F26172A226ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02830C4A-2490-4DD0-A42B-F26172A226ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02830C4A-2490-4DD0-A42B-F26172A226ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02830C4A-2490-4DD0-A42B-F26172A226ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
